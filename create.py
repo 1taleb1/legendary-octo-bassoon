@@ -16,3 +16,5 @@ def to_ts(x):
         return None
     else:
         return datetime.fromtimestamp(int(x))
+def main():
+    run()
